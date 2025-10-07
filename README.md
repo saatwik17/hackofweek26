@@ -1,0 +1,1 @@
+A complete UI/UX design for a digital student management platform that streamlines academic administration and student data handling. The prototype features responsive design elements, dashboard interfaces, and user-centric layouts for educational institutions. Built with modern design principles to enhance the student information management experience for schools and colleges.

@@ -34,12 +34,11 @@ git add . && git commit -m "Update" && git push
 ```
 
 ## 🎓 **About Me**
-- **Name**: [Your Name]
-- **PRN**: 25070521077
+- **Name**: [SAATWIK SINHA]
 - **Course**: B.Tech Computer Science & Engineering (1st Year)
 - **Skills**: Web Dev, Arduino, Cloud Computing (AWS), DSA
 - **Certifications**: Infosys Springboard C Programming, AWS Academy Cloud Architecting
-- **Connect**: [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+- **Connect**: [LinkedIn](https://linkedin.com/in/saatwik-sinha-32b162388) | [GitHub](https://github.com/saatwik17)
 
 ## 🚀 **Live Projects Gallery**
 ```
@@ -76,14 +75,6 @@ MIT License - Free to use, modify, and distribute! 🚀
 Built with ❤️ for the open source community
 ```
 
-## 🏆 **Connect With Me**
-```
-💼 Portfolio: https://pixelportfolio17.netlify.app
-📧 Email: your.email@sit.edu.in
-💬 LinkedIn: linkedin.com/in/yourprofile
-⭐ GitHub: github.com/yourusername
-🐦 Twitter: @yourusername
-```
 
 ***
 

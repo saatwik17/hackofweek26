@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Tech Fest Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🚀 College Tech Fest 2026</h1>
+    <p>Register Now to Participate</p>
+</header>
+
+<section class="container">
+    <form id="registrationForm">
+        <h2>Event Registration</h2>
+
+        <label>Full Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>College Name</label>
+        <input type="text" required>
+
+        <label>Phone Number</label>
+        <input type="tel" pattern="[0-9]{10}" required>
+
+        <label>Select Event</label>
+        <select required>
+            <option value="">-- Choose Event --</option>
+            <option>Hackathon</option>
+            <option>Code Sprint</option>
+            <option>Robotics</option>
+            <option>AI Workshop</option>
+            <option>Web Design</option>
+        </select>
+
+        <label>Year of Study</label>
+        <select required>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 College Tech Fest | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

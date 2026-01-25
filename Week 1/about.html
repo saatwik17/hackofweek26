@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Saatwik Sinha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a2332;
+            --secondary: #fafafa;
+            --accent: #d4af37;
+            --supporting: #6b7280;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #1a2332 0%, #2d3748 100%);
+            color: #fafafa;
+            overflow-x: hidden;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .text-gradient {
+            background: linear-gradient(135deg, #d4af37, #f7d794);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #d4af37;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+        
+        .skill-category {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        
+        .skill-category.animate {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .certification-card {
+            transition: all 0.3s ease;
+        }
+        
+        .certification-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(212, 175, 55, 0.2);
+        }
+        
+        .progress-ring {
+            transform: rotate(-90deg);
+        }
+        
+        .progress-ring-circle {
+            transition: stroke-dashoffset 0.35s;
+            transform-origin: 50% 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-effect">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-gradient" style="font-family: 'Playfair Display', serif;">
+                    <a href="index.html">Saatwik Sinha</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="nav-link text-white hover:text-yellow-300">Home</a>
+                    <a href="about.html" class="nav-link text-yellow-300 active">About</a>
+                    <a href="projects.html" class="nav-link text-white hover:text-yellow-300">Projects</a>
+                    <a href="contact.html" class="nav-link text-white hover:text-yellow-300">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 text-gradient" style="font-family: 'Playfair Display', serif;">
+                    About Me
+                </h1>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                    A passionate first-year Computer Science Engineering student dedicated to exploring 
+                    the frontiers of technology, cloud computing, and innovative problem-solving.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-20">
+                <div class="glass-effect rounded-2xl p-8">
+                    <div class="text-center mb-8">
+                        <div class="w-32 h-32 mx-auto bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center mb-6">
+                            <span class="text-5xl font-bold text-black">SS</span>
+                        </div>
+                        <h2 class="text-2xl font-bold mb-2">Saatwik Sinha</h2>
+                        <p class="text-gray-300">Computer Science Engineering Student</p>
+                        <p class="text-gray-400">Symbiosis International University</p>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <div class="flex justify-between">
+                            <span class="text-gray-300">Location:</span>
+                            <span class="text-white font-semibold">Nagpur, Maharashtra, India</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-300">Email:</span>
+                            <span class="text-white font-semibold">saatwiksinha1711@gmail.com</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-300">LinkedIn:</span>
+                            <a href="https://linkedin.com/in/saatwik-sinha-32b162388" target="_blank" class="text-yellow-400 hover:text-yellow-300 font-semibold">
+                                View Profile
+                            </a>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-300">Status:</span>
+                            <span class="text-green-400 font-semibold">Open to Opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="space-y-6">
+                    <h3 class="text-3xl font-bold text-gradient mb-6">My Journey</h3>
+                    <div class="space-y-4 text-gray-300 leading-relaxed">
+                        <p>
+                            As a first-year Computer Science Engineering student at Symbiosis International University, 
+                            I'm embarking on an exciting journey into the world of technology and innovation. My passion 
+                            for problem-solving and technology drives me to explore new horizons in programming, 
+                            cloud computing, and software development.
+                        </p>
+                        <p>
+                            I've already begun building my foundation with Google Cloud Platform certifications and 
+                            programming expertise in C. My goal is to contribute meaningfully to the tech ecosystem 
+                            while continuously learning and growing alongside diverse teams of innovators and creators.
+                        </p>
+                        <p>
+                            When I'm not coding or studying, I'm actively seeking opportunities to collaborate on 
+                            meaningful projects that can make a real difference. I believe in the power of technology 
+                            to solve complex problems and improve lives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Matrix -->
+    <section class="py-20 bg-gradient-to-b from-transparent to-gray-900/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 text-gradient" style="font-family: 'Playfair Display', serif;">
+                    Technical Expertise
+                </h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Comprehensive skill set across programming, cloud computing, and data analysis
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Programming Skills -->
+                <div class="skill-category glass-effect rounded-2xl p-8">
+                    <div class="text-center mb-8">
+                        <div class="w-16 h-16 mx-auto bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Programming</h3>
+                        <p class="text-gray-400">Core programming languages and concepts</p>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">C Programming</span>
+                                <span class="text-yellow-400">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Data Structures</span>
+                                <span class="text-yellow-400">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Algorithms</span>
+                                <span class="text-yellow-400">70%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Problem Solving</span>
+                                <span class="text-yellow-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cloud & DevOps -->
+                <div class="skill-category glass-effect rounded-2xl p-8">
+                    <div class="text-center mb-8">
+                        <div class="w-16 h-16 mx-auto bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Cloud & DevOps</h3>
+                        <p class="text-gray-400">Cloud platforms and deployment technologies</p>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Google Cloud Platform</span>
+                                <span class="text-yellow-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Cloud Architecture</span>
+                                <span class="text-yellow-400">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Docker Basics</span>
+                                <span class="text-yellow-400">60%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">CI/CD Concepts</span>
+                                <span class="text-yellow-400">65%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Data & Analytics -->
+                <div class="skill-category glass-effect rounded-2xl p-8">
+                    <div class="text-center mb-8">
+                        <div class="w-16 h-16 mx-auto bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Data & Analytics</h3>
+                        <p class="text-gray-400">Data analysis and visualization tools</p>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Google Analytics</span>
+                                <span class="text-yellow-400">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Google Sheets</span>
+                                <span class="text-yellow-400">70%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Data Visualization</span>
+                                <span class="text-yellow-400">65%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Statistical Analysis</span>
+                                <span class="text-yellow-400">60%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-2 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 text-gradient" style="font-family: 'Playfair Display', serif;">
+                    Certifications & Achievements
+                </h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Professional certifications and academic achievements
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="certification-card glass-effect rounded-2xl p-8 text-center">
+                    <div class="w-20 h-20 mx-auto bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Google Arcade Skill Boost</h3>
+                    <p class="text-gray-300 mb-4">Google Cloud Platform</p>
+                    <div class="text-sm text-gray-400">
+                        <p>June 2024 - Present</p>
+                        <p class="mt-2">Advanced cloud computing certification covering GCP services, architecture, and best practices.</p>
+                    </div>
+                </div>
+                
+                <div class="certification-card glass-effect rounded-2xl p-8 text-center">
+                    <div class="w-20 h-20 mx-auto bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">C Programming</h3>
+                    <p class="text-gray-300 mb-4">Programming Foundation</p>
+                    <div class="text-sm text-gray-400">
+                        <p>2024</p>
+                        <p class="mt-2">Comprehensive training in C programming, data structures, and algorithmic problem-solving.</p>
+                    </div>
+                </div>
+                
+                <div class="certification-card glass-effect rounded-2xl p-8 text-center">
+                    <div class="w-20 h-20 mx-auto bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">BTech Computer Science</h3>
+                    <p class="text-gray-300 mb-4">Symbiosis International University</p>
+                    <div class="text-sm text-gray-400">
+                        <p>2025 - 2029</p>
+                        <p class="mt-2">Currently pursuing Bachelor of Technology in Computer Science with focus on cloud computing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline -->
+    <section class="py-20 bg-gradient-to-b from-gray-900/50 to-transparent">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 text-gradient" style="font-family: 'Playfair Display', serif;">
+                    Education Journey
+                </h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Academic progression and learning milestones
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="relative">
+                    <div class="absolute left-8 top-0 w-1 h-full bg-gradient-to-b from-yellow-400 to-yellow-600"></div>
+                    
+                    <div class="space-y-12">
+                        <div class="flex items-start">
+                            <div class="w-16 h-16 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center text-black font-bold text-xl mr-8 flex-shrink-0">
+                                01
+                            </div>
+                            <div class="glass-effect rounded-2xl p-6 flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-gradient">BTech Computer Science</h3>
+                                <p class="text-gray-300 mb-2">Symbiosis International University</p>
+                                <p class="text-gray-400 mb-4">2025 - 2029 | Currently Enrolled</p>
+                                <p class="text-gray-300">
+                                    Pursuing Bachelor of Technology in Computer Science with comprehensive curriculum 
+                                    covering programming, algorithms, data structures, software engineering, and cloud computing.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-16 h-16 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-8 flex-shrink-0">
+                                02
+                            </div>
+                            <div class="glass-effect rounded-2xl p-6 flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-gradient">Google Cloud Platform</h3>
+                                <p class="text-gray-300 mb-2">Google Arcade Skill Boost</p>
+                                <p class="text-gray-400 mb-4">June 2024 - Present</p>
+                                <p class="text-gray-300">
+                                    Advanced certification program covering GCP services, cloud architecture, 
+                                    deployment strategies, and best practices for scalable cloud solutions.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-8 flex-shrink-0">
+                                03
+                            </div>
+                            <div class="glass-effect rounded-2xl p-6 flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-gradient">C Programming</h3>
+                                <p class="text-gray-300 mb-2">Programming Foundation Certification</p>
+                                <p class="text-gray-400 mb-4">2024</p>
+                                <p class="text-gray-300">
+                                    Comprehensive training in C programming language, focusing on data structures, 
+                                    algorithms, memory management, and system-level programming concepts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center">
+                <div class="text-2xl font-bold text-gradient mb-4" style="font-family: 'Playfair Display', serif;">
+                    Saatwik Sinha
+                </div>
+                <p class="text-gray-400 mb-6">
+                    Computer Science Engineering Student | Cloud Enthusiast | Problem Solver
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <a href="mailto:saatwiksinha1711@gmail.com" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/saatwik-sinha-32b162388" target="_blank" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                </div>
+                <p class="text-gray-500 text-sm mt-6">
+                    © 2025 Saatwik Sinha. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu) {
+                mobileMenu.classList.toggle('hidden');
+            }
+        });
+
+        // Animate skill categories on scroll
+        const skillCategories = document.querySelectorAll('.skill-category');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('animate');
+                    }, index * 200);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        skillCategories.forEach(category => {
+            observer.observe(category);
+        });
+
+        // Initialize main JavaScript
+        if (typeof initScrollEffects === 'function') {
+            initScrollEffects();
+        }
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>

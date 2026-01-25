@@ -1,38 +1,21 @@
-🍴 **Tasty Delight 17** 🌮 - Delicious food delivery & restaurant website! 🚚 Hosted on Netlify with GitHub source code, perfect for showcasing your web dev skills as a B.Tech CSE student at SIT Nagpur. 😋✨
+ 🚀 **SymbiTech 2026 – Online Tech Fest Registration Form**  
 
-## 📋 Project Overview
-Savor this mouthwatering, fully responsive restaurant site built with HTML, CSS & JavaScript! 🍕 Deployed via Netlify with seamless GitHub integration. Features menu browsing, ordering, and restaurant vibes for food lovers! 🥗📱
+ 🌐 **Live Demo:** [Visit Website](https://minimal-azure-snoj9l0gux.edgeone.app/#)  
 
-## 🔥 Key Features
-- 🍽️ **Interactive Menu** - Browse dishes with images, prices & descriptions
-- 🛒 **Order System** - Add to cart, checkout flow with smooth animations
-- 📍 **Restaurant Info** - Location, contact, about sections
-- 📲 **Mobile-First Design** - Perfect on all devices! 
-- ⚡ **Hover Effects** & smooth scrolling navigation
+💡 **About the Project:**  
+ A creative and responsive **event registration website** designed for a college tech fest. The aim was to simplify participant registration while showcasing an engaging, futuristic interface.  
 
-## 🛠️ Tech Stack
-| Technology | Icon | Description |
-|------------|------|-------------|
-| HTML5 | 🔤 | Clean semantic structure |
-| CSS3 | 🎨 | Responsive restaurant styling |
-| JavaScript | ⚡ | Cart functionality & interactions |
-| Netlify | ☁️ | Lightning-fast hosting |
-| GitHub | 📤 | Version control & auto-deploys |
+ ✨ **Key Features:**  
+ - 🎨 Eye‑catching **UI/UX** with a modern tech theme  
+ - 🖊️ **Dynamic registration form** to collect participant details  
+ - 📅 **Event listings** for multiple tech fest activities  
+ - 📱 **Fully responsive design**, optimized for mobile and desktop  
+ - ✅ **Form validation** for smooth and error‑free submission  
+ - 💬 Includes a **thank‑you/confirmation** message after submission  
 
-## 🌐 Live Demo & Repo
-🔗 **Live Site**: https://decent-amethyst-ngr5wk0j6l.edgeone.app/
+ 🧠 **Tech Stack Used:**  
+ - HTML5, CSS3, JavaScript  
+ - Responsive layout principles  
+ - Deployed via EdgeOne platform  
 
-## 🏁 Getting Started
-1. 🔄 `git clone [your-repo-url]` 
-2. 🌐 Open `index.html` in browser or VS Code Live Server
-3. 🍳 Customize menu items, prices & restaurant branding
-4. 🚀 Push to GitHub → Netlify auto-deploys instantly! ⚡
-
-## 🎯 Future Plans
-- 💳 **Payment Integration** (Razorpay/Stripe)
-- 📦 **Order Tracking** system
-- 🌙 **Dark mode** for late-night cravings
-- 📱 **PWA Support** for app-like experience
-- 🤝 **Contributions welcome** for new features! 🎉
-
-**Cooked with ❤️ by an aspiring full-stack developer!** 👨‍💻🍔
+ 🌟 Feel free to explore, fork, and share your suggestions or improvements!  

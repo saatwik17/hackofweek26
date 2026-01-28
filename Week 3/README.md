@@ -14,7 +14,7 @@
  - 💬 Includes a **thank‑you/confirmation** message after submission  
 
  🧠 **Tech Stack Used:**  
- - HTML5, CSS3, JavaScript  
+ - HTML5, CSS3, React  
  - Responsive layout principles  
  - Deployed via EdgeOne platform  
 

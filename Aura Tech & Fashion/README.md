@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🛍️✨ Online Product Listing Page
 
-# Run and deploy your AI Studio app
+> 🎨 A creative & effective product showcase for a small shop featuring **8 premium items** 🛒
 
-This contains everything you need to run your app locally.
+🌟 **👉 [Click Here](https://diplomatic-lavender-9k8oca0kzh.edgeone.app/)** Live Demo ✨
 
-View your app in AI Studio: https://ai.studio/apps/drive/1dFKCe72zaJDq74I-v8hTiUMHVS3cRct8
+---
 
-## Run Locally
+## 🎯🎨 Project Overview
 
-**Prerequisites:**  Node.js
+🚀 Built for **Hack-O-Week** assignment - A **stunning** product listing page showcasing **8 premium products** 📦
 
+✨ **Key Highlights:**
+- 🖼️ Creative card-based layout with hover magic ✨
+- 🎭 Smooth animations & transitions 🎬
+- 📱 **Fully Responsive** across all devices 📲
+- ⚡ Lightning-fast loading 🏎️
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀✨ Features
+
+| 🎯 Feature | ✅ Status |
+|------------|----------|
+| 🖼️ **8 Unique Products** | ✅ Premium visuals |
+| 🎨 **Modern Card Design** | ✅ Hover animations ✨ |
+| 📱 **Mobile-First** | ✅ Perfect on all screens |
+| ⚡ **Fast Performance** | ✅ Optimized assets |
+| 👁️ **Clean UI/UX** | ✅ Professional typography |
+| 🛒 **Shop-Ready** | ✅ E-commerce ready |
+
+---
+
+## 🛠️🔧 Tech Stack
+

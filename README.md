@@ -13,7 +13,7 @@ Welcome to my collection of web development projects! 💻 As a B.Tech CSE stude
 
 🔥 Core Technologies
 ```
-Frontend: HTML5 ⚡ | CSS3 🎨 | JavaScript 🚀 | Bootstrap/Tailwind
+Frontend: React ⚡ | HTML5 ⚡ | CSS3 🎨 | JavaScript 🚀 | Bootstrap/Tailwind
 Design: Figma 📐 | Adobe XD 🎨
 Deployment: Netlify ☁️ | GitHub Pages 📤 | Vercel
 Version Control: Git/GitHub 🔄

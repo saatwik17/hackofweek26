@@ -46,9 +46,11 @@ git add . && git commit -m "Update" && git push
 
 ## 🚀 **Live Projects Gallery**
 ```
-🔗 pixelportfolio17.netlify.app → Personal Portfolio
-🔗 tastydelight17.netlify.app → Restaurant Website
-🔗 [Add more Netlify links here]
+🔗 Pixel Portfolio → Personal Portfolio 🎨
+🔗 Tasty Delight → Restaurant Website 🍕
+🔗 Credit Card AI → Credit Card AI 💳
+🔗 Product Listing → Product Listing 🛍️
+🔗 SYMBITECH → Minimal Design 🌟
 📱 Figma prototypes → Mobile/Web UI designs
 ```
 

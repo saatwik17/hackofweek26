@@ -2,7 +2,8 @@
 
 > An intelligent AI-powered web app that recommends the best credit card based on user spending habits and financial profile.  
 
-🌐 **Live Demo:** https://acceptable-brown-o2pdvwoxap.edgeone.app/
+🌐 **Live Demo:** 👉 [Click Here](https://acceptable-brown-o2pdvwoxap.edgeone.app/)
+
 
 ***
 

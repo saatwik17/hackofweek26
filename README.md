@@ -7,6 +7,7 @@ Welcome to my collection of web development projects! 💻 As a B.Tech CSE stude
 | **Tasty Delight** 🍕 | [Live Site](https://decent-amethyst-ngr5wk0j6l.edgeone.app/) | Restaurant website with menu & ordering system | HTML5, CSS3, JS, Netlify |
 | **Credit Card AI** 💳 | [Live Site](https://acceptable-brown-o2pdvwoxap.edgeone.app/) | AI-powered credit card recommendation system | HTML5, CSS3, JS, EdgeOne |
 | **Product Listing** 🛍️ | [Live Site](https://diplomatic-lavender-9k8oca0kzh.edgeone.app/) | Creative 8-product shop showcase for Hack-O-Week | HTML5, CSS3, JS, EdgeOne |
+| **SYMBITECH** 🌟 | [Live Site](https://minimal-azure-snoj9l0gux.edgeone.app/) | Clean minimalistic landing page with modern design | HTML5, CSS3, JS, EdgeOne |
 
 ---
 

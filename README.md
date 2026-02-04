@@ -41,7 +41,7 @@ git add . && git commit -m "Update" && git push
 - **Name**: [SAATWIK SINHA]
 - **Course**: B.Tech Computer Science & Engineering (1st Year)
 - **Skills**:  **Web Development 📱**, Arduino 🤖, **Cloud Computing (AWS ☁️)**, DSA, **UI/UX Design 🎨**, **Responsive Design 📐**
-- **Certifications**: Infosys Springboard C Programming, AWS Academy Cloud Architecting
+- **Certifications**: Infosys Springboard C Programming, AWS Academy Cloud Architecting, RED HAT PYTHON PROGRAMMING
 - **Connect**: [LinkedIn](https://linkedin.com/in/saatwik-sinha-32b162388) | [GitHub](https://github.com/saatwik17)
 
 ## 🚀 **Live Projects Gallery**

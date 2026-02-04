@@ -40,7 +40,7 @@ git add . && git commit -m "Update" && git push
 ## 🎓 **About Me**
 - **Name**: [SAATWIK SINHA]
 - **Course**: B.Tech Computer Science & Engineering (1st Year)
-- **Skills**: Web Dev, Arduino, Cloud Computing (AWS), DSA
+- **Skills**:  **Web Development 📱**, Arduino 🤖, **Cloud Computing (AWS ☁️)**, DSA, **UI/UX Design 🎨**, **Responsive Design 📐**
 - **Certifications**: Infosys Springboard C Programming, AWS Academy Cloud Architecting
 - **Connect**: [LinkedIn](https://linkedin.com/in/saatwik-sinha-32b162388) | [GitHub](https://github.com/saatwik17)
 

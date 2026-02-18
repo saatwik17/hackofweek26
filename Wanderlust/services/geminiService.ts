@@ -2,7 +2,7 @@ import { GoogleGenAI, Chat } from "@google/genai";
 import { Trip } from "../types";
 
 // Hardcoded API Key as requested
-const apiKey = 'AIzaSyBeKkVbXz8kag3GPhTjuq6acZmcIwMfqzM';
+const apiKey = '';
 const ai = new GoogleGenAI({ apiKey });
 
 // Cache chat sessions to maintain context per trip if needed

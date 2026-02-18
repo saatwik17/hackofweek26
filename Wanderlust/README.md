@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Travel Blog with Navigation – README
 
-# Run and deploy your AI Studio app
+## 🌍 Overview  
+A simple **Travel** Blog website where a traveller shares 3 trip stories with smooth navigation and a small 3D visual effect built using React.
+🔗 Live Site: [Click here](https://glamorous-salmon-jkrdovuyyr.edgeone.app/)  
 
-This contains everything you need to run your app locally.
+## ✨ Features  
+- 🧭 Navigation bar to jump to each trip story.  
+- 🧳 Three sections describing different trips (with headings and text).  
+- 🎨 Basic responsive layout using HTML and CSS.  
+- 🌀 React-based 3D effect to enhance the visual experience. [dev](https://dev.to/markyu/implementing-3d-graphics-in-react-9mg)
 
-View your app in AI Studio: https://ai.studio/apps/drive/18FEOFJqe1fGvcxmVvLUYdbVzht4pWPYd
+## 🛠 Tech Stack  
+- 💻 HTML  
+- 🎨 CSS  
+- ⚛️ React (including a small 3D effect component) [r3f.docs.pmnd](https://r3f.docs.pmnd.rs/getting-started/introduction)
 
-## Run Locally
+## 🚀 How to Run  
+- 📂 Clone or download this repository.  
+- 📦 Install dependencies (for React setup): `npm install` or `yarn`. [github](https://github.com/aditya-sridhar/simple-reactjs-app/blob/master/README.md)
+- ▶️ Start dev server: `npm start` or `yarn start`. [github](https://github.com/lucas-mancini/react-app-readme-example)
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🌐 GitHub Pages  
+- 📤 Push code to GitHub.  
+- ⚙️ Enable GitHub Pages in repository settings (select branch and root folder). [github](https://github.com/react-navigation/create-react-app-example/blob/master/README.md)

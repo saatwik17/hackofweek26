@@ -1,0 +1,5 @@
+{
+  "name": "MindSpark Quiz Gen",
+  "description": "An AI-powered quiz generator that creates unique 5-question MCQ quizzes on any topic instantly.",
+  "requestFramePermissions": []
+}

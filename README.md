@@ -3,7 +3,7 @@ Welcome to my collection of web development projects! 💻 As a B.Tech CSE stude
 📂 Project Portfolio
 | Project | Live Demo | Description | Tech Stack |
 |---------|-----------|-------------|------------|
-| **Pixel Portfolio** 🎨 | [Live Site](https://occupational-bronze-cza07rqvid.edgeone.app/) | Personal portfolio showcasing skills & projects | HTML5, CSS3, JS |
+| **Portfolio** 🎨 | [Live Site](https://occupational-bronze-cza07rqvid.edgeone.app/) | Personal portfolio showcasing skills & projects | HTML5, CSS3, JS |
 | **Tasty Delight** 🍕 | [Live Site](https://decent-amethyst-ngr5wk0j6l.edgeone.app/) | Restaurant website with menu & ordering system | HTML5, CSS3, JS |
 | **Credit Card AI** 💳 | [Live Site](https://acceptable-brown-o2pdvwoxap.edgeone.app/) | AI-powered credit card recommendation system | React, HTML5, CSS3, JS, EdgeOne |
 | **Product Listing** 🛍️ | [Live Site](https://diplomatic-lavender-9k8oca0kzh.edgeone.app/) | Creative 8-product shop showcase for Hack-O-Week | HTML5, CSS3, JS, EdgeOne |

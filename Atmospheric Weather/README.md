@@ -1,4 +1,4 @@
-# 🌊 Quixotic Aquamarine – Modern Edge-Hosted Website
+# 🌊 WeatherNow – Modern Edge-Hosted Website
 
 Welcome to **Quixotic Aquamarine**, a modern website deployed on **EdgeOne Pages**. 🚀  
 This project uses a global edge network for fast, secure, and reliable delivery of your content.

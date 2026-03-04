@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧪 Unknown Jade – Edge-Powered Web App
 
-# Run and deploy your AI Studio app
+Welcome to **Unknown Jade**, a modern web project deployed on **EdgeOne Pages**. 🚀  
+This site is delivered through a global edge network for low-latency, secure, and highly available access. [web:34][web:36]
 
-This contains everything you need to run your app locally.
+🔗 **Live Demo:** [Click here to view the website](https://unknown-jade-edquf60i4v.edgeone.app/) 🌎 
 
-View your app in AI Studio: https://ai.studio/apps/c345736f-f514-4e8b-bd90-393deaa513be
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- ⚡ **High-performance delivery** via Tencent’s global CDN edge network. [web:1][web:36]  
+- 🌍 **Global availability** with fast access for users worldwide. [web:34][web:36]  
+- 🔒 **Automatic HTTPS and security** with managed SSL certificates and edge protection. [web:22][web:36]  
+- 🧩 **Static or full-stack ready**, supporting static assets and dynamic APIs via Edge Functions. [web:29][web:34]  
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🏗️ Tech Stack
+
+- 🌐 **Frontend:** React,HTML, CSS, JavaScript (compatible with frameworks like React, Vue, Next.js, etc.).   
+- ☁️ **Hosting & Edge:** Tencent **EdgeOne Pages** (static hosting + optional serverless functions).   
+
+> Update this section with the exact framework (e.g., React + Vite, Next.js, Tailwind CSS) used in your project.
+
+---
+
+## 🚀 Getting Started (Local Development)
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+
+# If using a bundler or framework
+npm install
+npm run dev

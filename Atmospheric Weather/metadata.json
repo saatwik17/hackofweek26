@@ -1,0 +1,5 @@
+{
+  "name": "Atmospheric Weather",
+  "description": "A creative, immersive weather dashboard for three cities using static data and modern animations.",
+  "requestFramePermissions": []
+}

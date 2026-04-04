@@ -1,0 +1,5 @@
+{
+  "name": "Browser History Stack",
+  "description": "An interactive visualization of a browser's back and forward history using Stack data structures.",
+  "requestFramePermissions": []
+}

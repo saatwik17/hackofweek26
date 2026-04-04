@@ -1,20 +1,119 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🛍️ AuraMart
 
-# Run and deploy your AI Studio app
+Welcome to **AuraMart** — a modern, interactive e-commerce shopping experience built with a sleek UI, smooth animations, and a powerful cart system. ✨  
+Explore products, manage your cart, and enjoy a responsive shopping interface made for speed and style. 🚀
 
-This contains everything you need to run your app locally.
+🔗 **Live Demo:** [Click here to explore AuraMart](https://marked-lavender-wnyin0sx0k.edgeone.app/)
 
-View your app in AI Studio: https://ai.studio/apps/c8275f88-3932-401c-8c51-4faea3af02bd
+---
 
-## Run Locally
+## 🌟 Features
 
-**Prerequisites:**  Node.js
+- 🔎 Product search and category filtering
+- 🛒 Smart cart management with add/remove actions
+- 🎯 Promotional banner and featured sections
+- 🌈 Smooth animations and modern UI
+- 📱 Fully responsive design for mobile and desktop
+- 📦 Checkout flow with order summary
+- 💬 Toast notifications for user actions
+- 🧠 Linked list-based cart structure
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Technology Used
+
+| Category | Technologies |
+|---|---|
+| Frontend | React.js, TypeScript, Vite |
+| Styling | Tailwind CSS, Custom CSS |
+| Animations | Framer Motion |
+| Icons | Lucide React |
+| State Management | React Hooks, Custom Linked List |
+| Hosting | Tencent EdgeOne Pages |
+| Build Tools | Vite |
+| Fonts | Inter, JetBrains Mono |
+
+---
+
+## 📁 Project Structure
+
+```bash
+AuraMart/
+├── public/
+├── src/
+│   ├── components/
+│   ├── lib/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/auramart.git
+```
+
+2. Go to the project folder:
+```bash
+cd auramart
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+5. Open the app in your browser:
+```bash
+http://localhost:3000
+```
+
+---
+
+## ⚙️ How to Implement / Customize
+
+- 🛍️ Add or update products inside `App.tsx`
+- 🎨 Change the UI styling in `index.css`
+- 🧩 Modify cart logic in your linked list utility files
+- ✨ Update animations using Framer Motion
+- 🌐 Replace the live demo link with your deployed project URL
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🙌 Acknowledgements
+
+Built with 💙 using modern web technologies for a smooth and engaging shopping experience.
+
+---
+
+## 📌 Live Demo
+
+🔗 [AuraMart Live Website](https://marked-lavender-wnyin0sx0k.edgeone.app/)

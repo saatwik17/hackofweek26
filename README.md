@@ -1,10 +1,10 @@
-Welcome to my collection of web development projects! 💻 As a B.Tech CSE student at **Symbiosis Institute of Technology (SIT), Nagpur**, these projects showcase my skills in modern web technologies, UI/UX design, and full-stack development. Each project is live on **Netlify** with source code hosted here on **GitHub**! ✨
+🚀 Welcome to my digital playground! 💻 Dive into my collection of Web Development Projects crafted with passion and precision. As a B.Tech CSE student at Symbiosis Institute of Technology (SIT), Nagpur, I love blending creativity with technology—exploring modern Web Technologies, Artificial Intelligence, UI/UX design, and Full-Stack Development. 🌐 Each project is fully live on EdgeOne Pages,Netlify and open-source on GitHub—ready for you to explore! ✨💡
 
 📂 Project Portfolio
 | Project | Live Demo | Description | Tech Stack |
 |---------|-----------|-------------|------------|
-| **Portfolio** 🎨 | [Live Site](https://occupational-bronze-cza07rqvid.edgeone.app/) | Personal portfolio showcasing skills & projects | HTML5, CSS3, JS |
-| **Tasty Delight** 🍕 | [Live Site](https://decent-amethyst-ngr5wk0j6l.edgeone.app/) | Restaurant website with menu & ordering system | HTML5, CSS3, JS |
+| **Portfolio** 🎨 | [Live Site](https://occupational-bronze-cza07rqvid.edgeone.app/) | Personal portfolio showcasing skills & projects | React, HTML5, CSS3, JS |
+| **Tasty Delight** 🍕 | [Live Site](https://decent-amethyst-ngr5wk0j6l.edgeone.app/) | Restaurant website with menu & ordering system | React, HTML5, CSS3, JS |
 | **Credit Card AI** 💳 | [Live Site](https://acceptable-brown-o2pdvwoxap.edgeone.app/) | AI-powered credit card recommendation system | React, HTML5, CSS3, JS, EdgeOne |
 | **Product Listing** 🛍️ | [Live Site](https://diplomatic-lavender-9k8oca0kzh.edgeone.app/) | Creative 8-product shop showcase for Hack-O-Week | HTML5, CSS3, JS, EdgeOne |
 | **SYMBITECH** 🌟 | [Live Site](https://minimal-azure-snoj9l0gux.edgeone.app/) | Clean minimalistic landing page with modern design | React, HTML5, CSS3, JS, EdgeOne |
@@ -16,6 +16,7 @@ Welcome to my collection of web development projects! 💻 As a B.Tech CSE stude
 | **Grand Achieve** 📚 | [Live Site](https://nuclear-green-ez4oolkbyo.edgeone.app/) |Grand Achieve is an online library book catalogue web app that shows how to manage a limited collection of books in a clean, interactive interface. It focuses on array-based storage, capacity control, and simple search  | HTML5, CSS3, JS, EdgeOne |
 | **HistoryStack** 📚 | [Live Site](https://coastal-peach-ngbyesp8nb.edgeone.app/) |A futuristic and interactive Data Structures Demo that visualizes browser history using stack operations. 🚀Built with a sleek dark UI, 3D effects, animations, and a browser-style interface to make learning fun and visual. ✨  | React.js, TypeScript, HTML, Vite,	Tailwind CSS, Custom CSS |
 | ** AuraMart** 🛍️ | [Live Site](https://marked-lavender-wnyin0sx0k.edgeone.app/) |Welcome to AuraMart — a modern, interactive e-commerce shopping experience built with a sleek UI, smooth animations, and a powerful cart system.✨Explore products, manage your cart, and enjoy a responsive shopping interface made for speed and style. 🚀  | React.js, TypeScript, HTML, Vite,	Tailwind CSS, Custom CSS |
+| ** Nexus PrintQueue** 🖨️  | [Live Site](https://tragic-lime-q5sprklgx5.edgeone.app/) |A futuristic 3D print queue simulation built with React 19, TypeScript, Motion, and Tailwind CSS.This project brings the workflow of a smart printer system to life with animated queue management, a realistic printer interface, and a visually rich dashboard experience.  | React.js, TypeScript, HTML, Vite,	Tailwind CSS, Custom CSS |
 
 
 
@@ -26,7 +27,7 @@ Welcome to my collection of web development projects! 💻 As a B.Tech CSE stude
 
 🔥 Core Technologies
 ```
-Frontend: React ⚡ | HTML5 ⚡ | CSS3 🎨 | JavaScript 🚀 | Bootstrap/Tailwind
+Frontend: React ⚡ | HTML5 ⚡ | Tailwind CSS3 🎨 | JavaScript 🚀 | Bootstrap/Tailwind
 Design: Figma 📐 | Adobe XD 🎨
 Deployment: Netlify ☁️ | EdgeOne ⚡| GitHub Pages 📤 | Vercel
 Version Control: Git/GitHub 🔄

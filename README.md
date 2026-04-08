@@ -14,6 +14,9 @@ Welcome to my collection of web development projects! 💻 As a B.Tech CSE stude
 | **WeatherNow** 🌤️ | [Live Site](https://quixotic-aquamarine-wwsce4miau.edgeone.app/) | A weather tracking website that provides real-time forecasts, current conditions, and atmospheric data delivered via EdgeOne Pages for instant global access.  | React, HTML5, CSS3, JS, EdgeOne |
 | **CODEFORGE** 📊 | [Live Site](https://passing-green-rtwn20dhd4.edgeone.app/) | **Passing Green** is a dynamic web application for real-time data visualization and interactive dashboards, powered by EdgeOne Pages for global low-latency delivery.  | React, HTML5, CSS3, JS, EdgeOne |
 | **Grand Achieve** 📚 | [Live Site](https://nuclear-green-ez4oolkbyo.edgeone.app/) |Grand Achieve is an online library book catalogue web app that shows how to manage a limited collection of books in a clean, interactive interface. It focuses on array-based storage, capacity control, and simple search  | HTML5, CSS3, JS, EdgeOne |
+| **HistoryStack** 📚 | [Live Site](https://coastal-peach-ngbyesp8nb.edgeone.app/) |A futuristic and interactive Data Structures Demo that visualizes browser history using stack operations. 🚀Built with a sleek dark UI, 3D effects, animations, and a browser-style interface to make learning fun and visual. ✨  | React.js, TypeScript, HTML, Vite,	Tailwind CSS, Custom CSS |
+| ** AuraMart** 🛍️ | [Live Site](https://marked-lavender-wnyin0sx0k.edgeone.app/) |Welcome to AuraMart — a modern, interactive e-commerce shopping experience built with a sleek UI, smooth animations, and a powerful cart system.✨Explore products, manage your cart, and enjoy a responsive shopping interface made for speed and style. 🚀  | React.js, TypeScript, HTML, Vite,	Tailwind CSS, Custom CSS |
+
 
 
 

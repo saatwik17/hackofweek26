@@ -29,7 +29,8 @@
 ```
 Frontend: React ⚡ | HTML5 ⚡ | Tailwind CSS3 🎨 | JavaScript 🚀 | Bootstrap/Tailwind
 Design: Figma 📐 | Adobe XD 🎨
-Deployment: Netlify ☁️ | EdgeOne ⚡| GitHub Pages 📤 | Vercel
+Deployment: EdgeOne Pages ![Uploading image.png…]()
+|Netlify ☁️ | EdgeOne ⚡| GitHub Pages 📤 | Vercel
 Version Control: Git/GitHub 🔄
 Backend (Learning): Node.js, AWS ☁️
 ```
@@ -48,7 +49,7 @@ Live Server extension → Right-click index.html → "Open with Live Server"
 
 # Deploy changes
 git add . && git commit -m "Update" && git push
-# → Netlify auto-deploys! ⚡
+# →EdgeOne Pages, Netlify auto-deploys! ⚡
 ```
 
 ## 🎓 **About Me**

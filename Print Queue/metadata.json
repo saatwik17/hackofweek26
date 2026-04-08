@@ -1,0 +1,5 @@
+{
+  "name": "PrintQueue 3D",
+  "description": "A unique and aesthetic 3D printer queue simulation demonstrating FIFO order.",
+  "requestFramePermissions": []
+}

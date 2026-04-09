@@ -25,7 +25,8 @@ The system takes user inputs about spending patterns and basic financial details
 ***
 
 ## 🛠️ Tech Stack  
-
+- <img width="237" height="212" alt="image" src="https://github.com/user-attachments/assets/8538c81c-5071-462d-8dc4-9cee58a42b22" />
+React
 - 🌐 HTML  
 - 🎨 CSS  
 - 💻 JavaScript  

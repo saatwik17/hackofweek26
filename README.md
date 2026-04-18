@@ -21,7 +21,8 @@
 | Animated Playlist Shuffle 🎵 | [Live Site](https://sweet-beige-1kyjjfzpvb.edgeone.app/) | Creative animated playlist using a doubly linked list with add, delete, and reverse operations | React, TypeScript, Motion, Tailwind CSS, Vite, EdgeOne |
 | Binary File System 🌳 | [Live Site](https://remote-maroon-rxpex8r6lz.edgeone.app/) | Interactive binary tree file-system visualizer with animated DFS traversals | React, TypeScript, D3, Motion, Tailwind CSS, Vite, EdgeOne |
 | ScoreSight 📊 | [Live Site](https://protective-aqua-s8yzxstetx.edgeone.app/) | Animated exam score tracker and statistical visualizer for min, max, and mode using linear traversal | React, TypeScript, Motion, Tailwind CSS, Vite, EdgeOne |
-
+| UndoRedo Task Manager ✅ | [Live Site](https://clear-teal-xlovhiowqn.edgeone.app/) | Smart task manager with add, edit, delete, complete, undo, and redo functionality using action history stacks | React, TypeScript, Motion, Lucide React, Vite, EdgeOne |
+| Bank ATM 🏧 | [Live Site](https://partial-green-6j73ykltk1.edgeone.app/) | Interactive ATM queue simulator using a circular queue with enqueue, dequeue, logs, and peak-hour simulation | React, TypeScript, Motion, Lucide React, Vite, EdgeOne |
 
 
 

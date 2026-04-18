@@ -1,0 +1,6 @@
+{
+  "name": "ScoreSight",
+  "description": "An interactive, animated exam score tracker and statistical visualizer that computes min, max, and mode using linear traversal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

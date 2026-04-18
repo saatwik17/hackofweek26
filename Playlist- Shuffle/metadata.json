@@ -1,0 +1,6 @@
+{
+  "name": "Animated Playlist Shuffle",
+  "description": "A creative animated interactive playlist using a doubly linked list. Add, delete by position, and reverse the list for shuffle mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

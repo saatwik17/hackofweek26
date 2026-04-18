@@ -1,0 +1,6 @@
+{
+  "name": "Undo/Redo Task Manager",
+  "description": "A smart task manager featuring full action history undo and redo functionality via state stacks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

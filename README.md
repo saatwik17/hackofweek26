@@ -18,6 +18,10 @@
 | **AuraMart** 🛍️ | [Live Site](https://marked-lavender-wnyin0sx0k.edgeone.app/) |Welcome to AuraMart — a modern, interactive e-commerce shopping experience built with a sleek UI, smooth animations, and a powerful cart system.✨Explore products, manage your cart, and enjoy a responsive shopping interface made for speed and style. 🚀  | React.js, TypeScript, HTML, Vite,	Tailwind CSS, Custom CSS |
 | **Nexus PrintQueue** 🖨️  | [Live Site](https://tragic-lime-q5sprklgx5.edgeone.app/) |A futuristic 3D print queue simulation built with React 19, TypeScript, Motion, and Tailwind CSS.This project brings the workflow of a smart printer system to life with animated queue management, a realistic printer interface, and a visually rich dashboard experience.  | React.js, TypeScript, HTML, Vite,	Tailwind CSS, Custom CSS |
 | **Nexus Directory** 📇  | [Live Site](https://guilty-rose-uzs6tyjkfn.edgeone.app/) |✨Nexus Directory is a visually rich contact exploration app that lets users search through a large contact list using prefix-based binary search.Contacts are organized into categories like Work, Personal, Family, and VIP, while a floating 3D background and tilt-card layout make the interface feel modern and immersive.  | React.js, TypeScript, HTML, Vite,	Tailwind CSS, Custom CSS |
+| Animated Playlist Shuffle 🎵 | [Live Site](https://sweet-beige-1kyjjfzpvb.edgeone.app/) | Creative animated playlist using a doubly linked list with add, delete, and reverse operations | React, TypeScript, Motion, Tailwind CSS, Vite, EdgeOne |
+| Binary File System 🌳 | [Live Site](https://remote-maroon-rxpex8r6lz.edgeone.app/) | Interactive binary tree file-system visualizer with animated DFS traversals | React, TypeScript, D3, Motion, Tailwind CSS, Vite, EdgeOne |
+| ScoreSight 📊 | [Live Site](https://protective-aqua-s8yzxstetx.edgeone.app/) | Animated exam score tracker and statistical visualizer for min, max, and mode using linear traversal | React, TypeScript, Motion, Tailwind CSS, Vite, EdgeOne |
+
 
 
 
